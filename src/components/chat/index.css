@@ -4,7 +4,7 @@
   border-radius: 8px;
 }
 .chat-content {
-  height: 70vh;
+  height: 65vh;
   overflow: auto;
 }
 .bot-user-message {
@@ -16,7 +16,7 @@
   padding: 16px 0;
   flex-direction: column;
 }
-.ant-input {
+.chat-reply-input > .ant-input {
   height: 40px;
 }
 .bot-user-message
@@ -49,7 +49,4 @@
 }
 .chat-card-title {
   text-align: center;
-}
-.ant-card-head {
-  background-color: lightseagreen;
 }
