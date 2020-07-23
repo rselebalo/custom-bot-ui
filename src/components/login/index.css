@@ -1,0 +1,33 @@
+.login-card {
+  margin: 10% 35% !important;
+  border-radius: 8px;
+  width: 30%;
+}
+.sign-up-card {
+  margin: 10% 30% !important;
+  border-radius: 8px;
+  width: 50%;
+}
+.content {
+  text-align: center;
+}
+.sign-up-form {
+  width: 50%;
+}
+.sign-up-card > .ant-card-body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.ant-form label {
+  font-size: 14px;
+  float: left;
+}
+@media screen and (max-width: 600px) {
+  .login-card,
+  .sign-up-card {
+    width: 100%;
+    margin: 0;
+  }
+}

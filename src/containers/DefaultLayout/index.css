@@ -1,0 +1,28 @@
+.ant-layout-header {
+  background: #ffff !important;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ant-menu,
+.ant-menu-light,
+.ant-menu-root,
+.ant-menu-horizontal {
+  background: none !important;
+}
+.ant-layout-content {
+  height: 100vh;
+}
+.logo {
+  text-align: center;
+  height: 55px;
+  width: 55%;
+  color: #ffff;
+}
+.anticon-menu-fold,
+.trigger {
+  padding-top: 20px;
+  font-size: 30px;
+}
